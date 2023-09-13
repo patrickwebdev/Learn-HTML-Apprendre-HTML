@@ -1,1 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-CA">
 
+<head>
+    <meta charset="UTF-8" />
+    <title>Body Tags</title>
+</head>
+
+<body>
+    <!-- 1-SECTIONING AND OUTLINES ELEMENTS -->
+    <!-- To create a new smaller section of the document -->
+    <!-- <section> <article> <aside> <nav> <div> <address> <header> <footer> <h1< to <h6>-->
+
+    <nav>
+        <h1>Navigation Menu</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Heading level 2</h2>
+        <section>
+            <h3>Heading level 3</h3>
+            <section>
+                <h4>Heading level 4</h4>
+            </section>
+            <section>
+                <h4>Heading level 4</h4>
+                <article>
+                    <h5>Heading level 5</h5>
+                </article>
+                <article>
+                    <h5>Heading level 5</h5>
+                </article>
+            </section>
+        </section>
+        <aside>
+            <h3>Heading level 3</h3>
+            <section>
+                <h4>Heading level 4</h4>
+            </section>
+            <section>
+                <h4>Heading level 4</h4>
+                <article>
+                    <h5>Heading level 5</h5>
+                </article>
+                <article>
+                    <h5>Heading level 5</h5>
+                </article>
+            </section>
+        </aside>
+    </section>
+
+    <footer>
+        <p>CONTACT INFO</p>
+        <address>
+            <p>Email or Call Us
+                <a href="mailto:saintlouispatrick@slp.slp">slp@slp.slp</a>
+                <a href="tel:5149999999">Call Me</a>
+            </p>
+            <p>Visit Us:
+                <a target=_blank href="https://goo.gl/maps/4fj4T2MHuqNVbjeU7" rel="noopener noreferrer">
+                    Elizabeth St, Melbourne<br>1202 Australia.
+                </a>
+            </p>
+        </address>
+    </footer>
+
+    <div id="top">
+
+    </div>
+
+    <h1>Level 1</h1>
+    <h2>Level 2</h2>
+    <h3>Level 3</h3>
+    <h4>Level 4</h4>
+    <h5>Level 5</h5>
+    <h6>Level 6</h6>
+
+    <!-- 2-GROUPING ELEMENTS -->
+    <!-- <p> <hr/> <pre> -->
+    <p>First Paragraph</p>
+    <hr /> <!-- Horizontal row -->
+    <p>Second Paragraph</p>
+    <hr />
+    <p>Third Paragraph</p>
+
+    <!-- Predefined : to display using the same format the text is written in the code, including indent and line breaks -->
+    <pre>Only a few of them
+        Can, sometimes, open their own eyes,
+            To see the truth And understand it
+
+        Only a few of who understood the truth
+            Can have courage, to say it's not fair!</pre>
+    <cite>Unknown Author- 2022, Montreal (QC)</cite>
+
+    <!-- 3-SECTIONING ROOT-->
+    <!-- Blockquote for long citation including more than one elements, e.g. heading and paragraph -->
+    <!-- Different than <cite> -->
+    <blockquote cite="https://www.wikipedia.com">
+        <h1>First Quotation</h1>
+        <p>This is the content of the first quotation!</p>
+    </blockquote>
+
+    <!-- Details for creating accordion e.g. To display FAQ -->
+    <!-- The attribute false or open hide or display the parts after summary when you first access the page-->
+    <details false>
+        <summary>How to contact US?</summary>
+        <h1>Email</h1>
+        <p>email@email.ca</p>
+    </details>
+
+    <!-- For grouping an image and its embedded content -->
+    <figure>
+        <h1>Figure</h1>
+        <img src="img/image.gif" alt="HTML5" width="25%"/>
+        <figcaption>My Apple Picture</figcaption>
+    </figure>
+
+    <!-- 4-LISTING ELEMENTS -->
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <ol type="A" start="F">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+
+    <dl>
+        <dt>Term 1</dt>
+        <dd>Definition of Term 1</dd>
+        <dt>Term 2</dt>
+        <dd>Definition of Term 2</dd>
+        <dt>Term 3</dt>
+        <dd>Definition of Term 3</dd>
+    </dl>
+    </dl>
+
+
+    <!-- 5-INLINE FRAME -->
+    <!-- To display a frame that show another live website page -->
+    <iframe src="https://www.wikipedia.com" width="80%" height="380">
+        <p>Your browser does not support iframes</p>
+    </iframe>
+
+    <!-- 6-ANCHOR ELEMENT: HYPERLINKS -->
+    <h2>H1 hyperlink. Can also be P... </h2>
+    <h1><a href="mailto:saintlouispatrick@sl.sl">Email Me</a></h1>
+
+    <h2>Phone hyperlink</h2>
+    <a href="tel:514-514-2564">Call Me</a>
+
+    <h2>URL hyperlink</h2>
+    <a href="https://www.wikipedia.com">Visit Wikipedia</a>
+
+    <h2>ID hyperlink</h2>
+    <a href="#top">SCROLL TO UP</a>
+
+    <h2>Image hyperlink</h2>
+    <a href="#top"><img src="img/image.gif" alt="HTML5" width="20%"/></a>
+
+    <h2>Google Map hyperlink</h2>
+    <a target=_blank href="https://goo.gl/maps/4fj4T2MHuqNVbjeU7" rel="noopener noreferrer">
+        Elizabeth St, Melbourne<br>1202 Australia.
+    </a>
+
+    <!-- 7-TABLE ELEMENT -->
+    <h2>Only rows and cells</h2>
+    <table>
+        <tr>
+            <td>Cell One</td>
+            <td>Cell Two</td>
+            <td>Cell Three</td>
+        </tr>
+        <tr>
+            <td>Cell Four</td>
+            <td>Cell Five</td>
+            <td>Cell Six</td>
+        </tr>
+        <tr>
+            <td>Cell Seven</td>
+            <td>Cell Eight</td>
+            <td>Cell Nine</td>
+        </tr>
+    </table>
+
+    <h2>Add Table Headings</h2>
+    <table>
+        <caption>Client Phone Number Repertory</caption>
+        <tr>
+            <td></td> <!-- empty cell -->
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Phone Number</th>
+        </tr>
+        <tr>
+            <th scope="row">#1</th>
+            <td>Montreal</td>
+            <td>Quebec</td>
+            <td>999-999-9999</td>
+        </tr>
+        <tr>
+            <th scope="row">#2</th>
+            <td>Ottawa</td>
+            <td>Ontario</td>
+            <td>888-888-8888</td>
+        </tr>
+        <tr>
+            <th scope="row">#3</th>
+            <td>Vancouver</td>
+            <td>British-Columbia</td>
+            <td>777-777-7777</td>
+        </tr>
+    </table>
+
+    <h2>Combine Cells</h2>
+    <table border="1">
+        <caption>Client Phone Number Repertory</caption>
+        <tr>
+            <td></td> <!-- empty cell -->
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Phone Number</th>
+        </tr>
+        <tr>
+            <th scope="row">#1</th>
+            <td>Montreal</td>
+            <td>Quebec</td>
+            <td rowspan="2" colspan="1">999-999-9999</td>
+        </tr>
+        <tr>
+            <th scope="row">#2</th>
+            <td>Ottawa</td>
+            <td>Ontario</td>
+            <!--<td>888-888-8888</td>-->
+        </tr>
+        <tr>
+            <th scope="row">#3</th>
+            <td rowspan="1" colspan="2">Vancouver</td>
+            <!--<td>British-Columbia</td>-->
+            <td>777-777-7777</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
