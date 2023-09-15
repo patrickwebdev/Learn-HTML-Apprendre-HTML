@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="Author" content="Patrick Saint-Louis" />
+		<title>Feedback Form</title>	
+	</head>
+	<body>
+		<div class="container"> 
+			<h1>Review Form</h1>
+
+			<form action="" method="" autocomplete>
+
+				<fieldset>
+					<legend>YOUR PROFILE</legend>
+					<div>
+						<p>
+							<label for="fname">*First Name:</label>
+							<input type="text" pattern="[a-zA-Z]+" id="fname" size="40" minlength="2" maxlength="50" placeholder="John" required>
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label for="lname">*Last Name:</label>
+							<input type="text" pattern="[a-zA-Z]+" id="lname" size="40" minlength="2" maxlength="50" placeholder="Doe" required>
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>
+								*Age:
+								<input type="number" min="18" max="100" step="1" required>
+							</label>
+						</p>
+					</div>
+
+					<div>	
+						<p>
+							<label>Gender</label>
+							<label>
+								Male
+								<input type="radio" name="gender" value="Male" />
+							</label>
+						
+							<label>
+								Female
+								<input type="radio" name="gender" value="Female" />
+							</label>
+
+							<label>
+								Other
+								<input type="radio" name="gender" value="Other" />
+							</label>
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>
+								*Phone Number:
+								<input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="514-999-9999" required>
+							</label>
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>
+								Email:
+								<input type="email" size="40" placeholder="jondoe@jd.com">
+							</label>
+						</p>
+					</div>
+
+					<datalist id="client-city">
+						<option value="Montreal">
+						<option value="Laval">
+						<option value="Longueuil">
+					</datalist>
+					<p>
+						<label for="city-name">City where you are registered as our Client</label>
+						<input type="text" id="city-name" list="client-city" /> 
+					</p>
+                </fieldset>
+
+				<fieldset>
+					<legend>YOUR REVIEW</legend>
+					<div>
+						<p>
+							<label>
+								1-How did you hear about us for the first time?
+								<select>
+									<option value="google">Search Engine</option>
+									<option value="friend">Friends</option>
+									<option value="family">Family</option>
+									<option value="advert">Advertising</option>
+									<option value="other">Other</option>
+									<option value="no-answer" selected></option>
+								</select>
+							</label>
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label for="t_date">
+								2-When was your last transactions with us?
+							</label>
+							<input id="t_date" type="date" min=2022-01-01 />
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>3-How were the services we offered you?</label>
+						</p>
+						
+						<p>
+							<label>
+								<input type="radio" name="rating" value="Excellent" />
+								Excellent
+							</label>
+						</p>
+						
+						<p>
+							<label>
+								<input type="radio" name="rating" value="Good" />
+								Good
+							</label>
+						</p>
+						
+						<p>
+						<label>
+							<input type="radio" name="rating" value="Acceptable" />
+							Acceptable
+						</label>
+						</p>
+
+						<p>
+							<label>
+								<input type="radio" name="rating" value="Not too bad" />
+								Not too bad
+							</label>
+						</p>
+
+						</p>
+							<label>
+								<input type="radio" name="rating" value="Bad" />
+								Bad
+							</label>
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>
+								4-What do you prefer when making transactions with us?<br/>
+								<select size="" multiple>
+									<option value="Warm welcome">Warm Welcome</option>
+									<option value="Product Quality">Product Quality</option>
+									<option value="Good Price">Good Price</option>
+									<option value="Concern for Feedback">Concern for Feedback</option>
+								</select>
+							</label>
+						</p>
+					</div>
+
+					<div>
+						<datalist id="satisfaction">
+							<option value="0" />
+							<option value="25" />
+							<option value="50" />
+							<option value="75" />
+							<option value="100" />
+						</datalist>
+						<p>
+							<label for="satisfaction-rate">Satisfaction Rate</label><br/>
+							<input id="satisfaction-rate" type="range" min="0" max="100" step="25" list="satisfaction" />
+						</p>
+					</div>
+
+                </fieldset>
+
+				<fieldset>
+					<legend>YOUR COMMENTS</legend>
+					<div>
+						<p>
+							<label>
+								Add your comments below<br/>
+								<textarea rows="6" cols="70" id="comments" placeholder="Use only the characters a-z, A-Z, and 0-9" autofocus></textarea>
+							</label>
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>
+								Upload your file below (Only .pdf format can be submitted)<br>
+								<input type="file" accept=".pdf" multiple />
+							</label>
+						</p>
+					</div>
+                </fieldset>
+
+				<div>
+					<p>
+						<label>
+							<input type="checkbox" name="approbation" checked/>
+							*I confirm that the information entered are true
+						</label>
+					</p>
+				</div>
+
+				<input type="submit" value="SEND">
+
+            </form>
+        </div>    
+    </body>
+</html>
