@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="Author" content="Patrick Saint-Louis" />
+	<title>Pricing Table</title>
+</head>
+
+<body>
+	<table border="1">
+		<caption>Pricing Table Of The Services We Offer</caption>
+		<!-- Row 1 : 4 Cells -->
+		<tr>
+			<th class="firstcolrow"></th>
+			<th scope="col" class="col">Entrepreneur
+				<hr />
+			</th>
+			<th scope="col" class="col">Business Pro
+				<hr />
+			</th>
+			<th scope="col" class="collast">Enterprise
+				<hr />
+			</th>
+		</tr>
+		<!-- Row 2 : 4 Cells -->
+		<tr>
+			<th scope="row" class="pair">Risk free trial period</th>
+			<td class="pair">30-day trial</td>
+			<td class="pair">30-day trial</td>
+			<td class="collast2">30-day trial</td>
+		</tr>
+		<!-- Row 3 : 4 Cells -->
+		<tr>
+			<th scope="row" class="row"># of team members with access</th>
+			<td>up to 4</td>
+			<td>up to 9</td>
+			<td class="collast">unlimited</td>
+		</tr>
+		<!-- Row 4 : 4 Cells -->
+		<tr>
+			<th scope="row" class="pair">Role based permissions & access</th>
+			<td class="pair">✔ (basic)</td>
+			<td class="pair">✔ (basic)</td>
+			<td class="collast2">✔ (basic)</td>
+		</tr>
+		<!-- Row 5 : 3 Cells -->
+		<tr>
+			<th scope="row" class="row">Unlimited company's</th>
+			<td rowspan="3" colspan="2">Only 1 of these 3 services</td>
+			<!--<td></td>-->
+			<td class="collast"></td>
+		</tr>
+		<!-- Row 6 : 2 Cells -->
+		<tr>
+			<th scope="row" class="pair">Unlimited staff</th>
+			<!--<td class="pair"></td>-->
+			<!--<td class="pair"></td>-->
+			<td class="collast2"></td>
+		</tr>
+		<!-- Row 7 : 2 Cells -->
+		<tr>
+			<th scope="row" class="row">Unlimited projects</th>
+			<!--<td></td>-->
+			<!--<td></td>-->
+			<td class="collast"></td>
+		</tr>
+		<!-- Row 8 : 4 Cells -->
+		<tr>
+			<th scope="row" class="pair">Dashboard</th>
+			<td class="pair">✔ (basic)</td>
+			<td class="pair">✔ (custom)</td>
+			<td class="collast2">✔ (custom)</td>
+		</tr>
+		<!-- Row 9 : 4 Cells -->
+		<tr>
+			<th scope="row" class="row">Allocation management</th>
+			<td></td>
+			<td rowspan="3" colspan="1">Only 1 of these 3 services</td>
+			<td class="collast">✔</td>
+		</tr>
+		<!-- Row 10 : 3 Cells -->
+		<tr>
+			<th scope="row" class="pair">Real-time allocation analytics & reports</th>
+			<td class="pair"></td>
+			<!--<td class="pair"></td>-->
+			<td class="collast2">✔</td>
+		</tr>
+		<!-- Row 11 : 3 Cells -->
+		<tr>
+			<th scope="row" class="row">Real-time budget analytics & reports</th>
+			<td></td>
+			<!--<td></td>-->
+			<td class="collast">✔</td>
+		</tr>
+		<!-- Row 12 : 4 Cells -->
+		<tr>
+			<th scope="row" class="pair">Real-time project analytics & reports</th>
+			<td class="pair"></td>
+			<td class="pair"></td>
+			<td class="collast2">✔</td>
+		</tr>
+		<!-- Row 13 : 4 Cells -->
+		<tr>
+			<th scope="row" class="row">Harvest integration</th>
+			<td>✔</td>
+			<td>✔</td>
+			<td class="collast">✔</td>
+		</tr>
+		<!-- Row 14 : 4 Cells -->
+		<tr>
+			<th scope="row" class="pair">Paychex Payroll integration</th>
+			<td class="pair"></td>
+			<td class="pair"></td>
+			<td class="collast2">✔</td>
+		</tr>
+		<!-- Row 15 : 4 Cells -->
+		<tr>
+			<th scope="row" class="row">Microsoft Excel + (.CSV) integration</th>
+			<td>✔</td>
+			<td>✔</td>
+			<td class="collast">✔</td>
+		</tr>
+		<!-- Row 16 : 4 Cells -->
+		<tr>
+			<th scope="row" class="pair">99.9% uptime and 24/7 monitoring</th>
+			<td class="pair">✔</td>
+			<td class="pair">✔</td>
+			<td class="collast2">✔</td>
+		</tr>
+		<!-- Row 17 : 4 Cells -->
+		<tr>
+			<th scope="row" class="row">Daily data backup and 128-bit security 	</th>
+			<td>✔</td>
+			<td>✔</td>
+			<td class="collast">✔</td>
+		</tr>
+		<!-- Row 18 : 4 Cells -->
+		<tr>
+			<th class="firstcollastrow"></th>
+			<td class="rowlast"><sup>$</sup>19<sub>/months</sub></td>
+			<td class="rowlast"><sup>$</sup>49<sub>/months</sub></td>
+			<td class="rowlast2"><sup>$</sup>99<sub>/months</sub></td>
+		</tr>
+		<!-- Row 19 : 2 Cells -->
+		<tr>
+			<th class="firstcollastrow"></th>
+			<td rowspan="1" colspan="3">Additional discount is always available for existing customers!</td>
+		</tr>
+	</table>
+</body>
+
+</html>
