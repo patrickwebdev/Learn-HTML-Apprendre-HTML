@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Patrick Saint-Louis" />
+        <title>Test</title>
+    </head>
+    <body>
+        
+        <!--1-Download Hyperlink-->
+        <figure>
+            <figcaption>Download Our Logo</figcaption>
+            <a href="img/icon/icon-apps-svgrepo.svg" download="logo-well-being-agency" target="" >
+                <img src="img/icon/icon-apps-svgrepo.svg" width="11%" />
+            </a>
+        </figure>
+
+        <br/><br/><br/><br/>
+
+        <!--2-Image Map Hyperlink-->
+        <!--3 shape are available, including circle, rect (rectangle) and poly (polygone)-->
+        <!--To link the map to the image use the values of the attributes name (of map) and usemap(of img)-->
+        <map name="map-og-home">
+            <area shape="circle" coords="75,25,25" alt="circle hyperlink to home page" title="open me!" href="index.html" />
+        </map>
+        <img src="img/og/og-home-1200x630.jpg" width="20%"  usemap="#map-og-home">
+
+
+        <br/><br/><br/><br/>
+
+        <!--3-Embed local Audio-Relative-->
+        <figure>
+            <figcaption>Listen our Local Audio File</figcaption>
+            <audio preload="auto" loop controls>
+                <source src="audio/Free_Test_Data_100KB_MP3.mp3" type="audio/mp3" />
+                <p>Your browser doesn't support HTML5 audio.</p>
+            </audio>
+        </figure>
+
+        <br/><br/><br/><br/>
+
+        <!--4-Embed Audio from server-Absolute URL-->
+        <figure>
+            <figcaption>Listen a Sanple Audi File on samplelib.com</figcaption>
+            <audio preload="auto" loop controls src="https://samplelib.com/lib/preview/mp3/sample-3s.mp3">
+                <source src="https://samplelib.com/lib/preview/mp3/sample-3s.mp3" type="audio/mp3" />
+                <p>Your browser doesn't support HTML5 audio.</p>
+            </audio>
+        </figure>
+
+        <br/><br/><br/><br/>
+
+        <!--5-Embed local Video-Relative URL-->
+        <video  preload="auto" loop controls poster="img/og/og-home-1200x630.jpg" width="600" height="338">
+            <source src="video/video-header-patrick-happiness.mp4" type="video/mp4" />
+            <p>Your browser doesn't support HTML5 video.</p>
+        </video>
+
+        <br/><br/><br/><br/>
+
+        <!--6-Embed local Video-Absolute URL-->
+        <video  preload="auto" loop controls poster="img/og/og-home-1200x630.jpg" width="600" height="338">
+            <source src="https://samplelib.com/lib/preview/mp4/sample-5s.mp4" type="video/mp4" />
+            <p>Your browser doesn't support HTML5 video.</p>
+        </video>
+
+        <br/><br/><br/><br/>
+
+        <!--7-Embed YouTube Video-Not the URL of a video File-->
+        <!--Page Link https://youtu.be/2_Si-iD8ZRQ-->
+        <!--YouTube already provides the iframe. Click the link share to access the iframe link to copy paste!-->
+        <iframe width="560" height="315" loading="lazy"
+            src="https://www.youtube.com/embed/2_Si-iD8ZRQ?si=EcSevsYmmPS8_5Jp" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+        
+        <br/><br/><br/><br/>
+        
+        <!--8-Anchor element-->
+        <a href=html-tags.html target="_blank">OPEN THE HTML-CHEAT SHEET</a>
+
+        
+
+
+    </body>
+</html>
